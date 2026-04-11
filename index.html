@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bool Tok</title>
   <link rel="icon" href="assets/img/booltok_logo.png">
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -30,15 +30,64 @@
 
     <!-- Header -->
     <header class="reel-header">
+      <button type="button" class="play" aria-label="Cerca">
+        <i class="bi bi-play-btn"></i>
+      </button>
 
-
+      <section class="menu">
+        <div class="explore">Esplora</div>
+        <div class="followed">Seguiti</div>
+        <div class="for-you">Per te</div>
+      </section>
+      
+      <button id="lente">
+        <i class="bi bi-search"></i>
+      </button>
     </header>
 
     <!-- Sidebar -->
     <div class="sidebar">
-      
+      <!-- Pulsante Profilo con tasto "+" -->
+      <div class="profile-info">
+        <figure class="pic">
+          <img src="/assets/img/boolean_logo.png" alt="Profile pic" width="40px">
+        </figure>
+        <div class="add-btn">+</div>
+      </div>
 
+      <!-- Pulsante Like -->
+      <div class="action-item">
+        <button>
+          <i class="bi bi-heart-fill"></i>
+        </button>
+        <div>588</div>
+      </div>
+
+      <!-- Pulsante Commenti -->
+      <div class="action-item">
+        <button>
+          <i class="bi bi-chat-dots-fill"></i>
+        </button>
+        <div>13</div>
+      </div>
+
+      <!-- Pulsante Salva (Preferiti) -->
+      <div class="action-item">
+        <button>
+          <i class="bi bi-bookmark-fill"></i>
+        </button>
+        <div>638</div>
+      </div>
+
+      <!-- Pulsante Condividi -->
+      <div class="action-item">
+        <button>
+          <i class="bi bi-share-fill"></i>
+        </button>
+        <div>491</div>
+      </div>  
     </div>
+
 
     <!-- Footer -->
     <footer>
