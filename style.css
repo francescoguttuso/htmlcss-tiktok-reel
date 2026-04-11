@@ -83,6 +83,10 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: black;
 }
 
 /* Sidebar */
@@ -96,7 +100,10 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+	gap: 25px;
 }
+
+
           
 
           
