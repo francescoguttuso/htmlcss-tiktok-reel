@@ -184,7 +184,7 @@ h3 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-	gap: 25px;
+	gap: 9px;
 }
 
 .tab-bar i {
@@ -214,7 +214,7 @@ da rimuovere una volta concluso
 
 .debug .sidebar {
 	min-width: 80px;
-	min-height: 450px;
+	min-height: 427px;
 	
 }
 
@@ -240,7 +240,11 @@ da rimuovere una volta concluso
 }
 
 .sidebar i {
-	font-size: 25px;
+	font-size: 30px;
 }
 
+.number {
+	padding-left: 6px;
+
 /* --------------------- */
+
