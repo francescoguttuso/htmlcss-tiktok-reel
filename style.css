@@ -123,6 +123,7 @@ footer {
 h3 {
 	padding-top: 2px;
     padding-bottom: 7px;
+
 }
 
 .amici, .plus, .messages, .profile {
@@ -171,50 +172,29 @@ h3 {
  	border-radius: 30%;
 	color: #fff;
 	text-align: center;
-}
 
-/* Sidebar */
-.sidebar {
-	padding: 0 16px;
-	position: absolute;
-	right: 0;
-	top: 40%;
-	color: #fff;
-	display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-	gap: 9px;
 }
 
 .tab-bar i {
 	font-size: 25px;
+
 }
 
 .tab-bar span {
 	font-size: 12px;
-}
 
+}
 
 .profile-info .pic {
   display: inline-flex;
   border: 4px solid #fff;
   border-radius: 50%;
   overflow: hidden;
+
 }
 
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
 .debug footer {
 	min-height: 80px;
-	
-}
-
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 427px;
 	
 }
 
@@ -237,14 +217,42 @@ da rimuovere una volta concluso
 
   border-radius: 50%; 
   font-size: 16px;
-}
 
-.sidebar i {
-	font-size: 30px;
 }
 
 .number {
 	padding-left: 6px;
+
+}
+
+/* Sidebar */
+.sidebar {
+	padding: 0 16px;
+	position: absolute;
+	right: 0;
+	top: 40%;
+	color: #fff;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+	gap: 9px;
+
+}
+
+.debug .sidebar {
+	min-width: 80px;
+	min-height: 427px;
+	
+}
+
+.sidebar i {
+	font-size: 30px;
+
+}
+
+
+
 
 /* --------------------- */
 
