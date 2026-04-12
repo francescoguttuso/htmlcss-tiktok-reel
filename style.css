@@ -24,6 +24,8 @@ video {
 	position: relative;
 }
 
+
+
 .reel-header {
 	position: absolute;
 	align-items: center;
@@ -61,6 +63,25 @@ a {
   color: inherit;
 }
 
+.followed {
+  position: relative;
+}
+
+/* puntino rosso */
+.followed::after {
+  content: "";
+  position: absolute;
+
+  top: 2px;      
+  right: -8px;   
+
+  width: 6px;
+  height: 6px;
+
+  background-color: rgba(255, 0, 0, 0.6); 
+  border-radius: 50%;
+}
+
 .for-you {
 	color: #fff;
 	font-weight: bold;
@@ -68,7 +89,8 @@ a {
 }	
 
 .reel-header button {
-	color: #fff;  
+	color: #fff; 
+	font-size: 24px	
 }
 
 
@@ -87,6 +109,52 @@ footer {
 	justify-content: space-evenly;
 	align-items: center;
 	background-color: black;
+	flex-wrap: wrap;
+	gap: 7px
+
+	
+}
+
+.amici, .plus, .messages, .profile {
+  	display: flex;
+  	flex-direction: column;
+	align-items: center;
+  	gap: 5px;
+	color: #868282
+  	
+}
+
+.home {
+	display: flex;
+  	flex-direction: column;
+	align-items: center;
+  	gap: 5px;
+	color: #fff;
+}
+
+.plus{
+	position: relative;
+    width: 47px;
+    height: 32px;
+    background: #fff;
+    border-radius: 9px;
+}
+
+.messages {
+	position: relative;
+ 
+}
+
+.notify {
+  	position: absolute;
+	top: -5px;
+ 	right: 17px;
+	width: 20px;
+	height: 16px;
+ 	background-color: red;
+ 	border-radius: 30%;
+	color: #fff;
+	text-align: center;
 }
 
 /* Sidebar */
@@ -103,18 +171,18 @@ footer {
 	gap: 25px;
 }
 
+.tab-bar i {
+	font-size: 25px;
+}
 
-          
-
-          
-
-
-
+.tab-bar span {
+	font-size: 12px;
+}
 
 
 .profile-info .pic {
   display: inline-flex;
-  border: 4px solid rgb(245, 245, 248);
+  border: 4px solid #fff;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -124,7 +192,7 @@ Regole per evidenziare i blocchi
 da rimuovere una volta concluso
 --------------------- */
 .debug footer {
-	min-height: 100px;
+	min-height: 80px;
 	border: 2px dashed #fff;
 }
 

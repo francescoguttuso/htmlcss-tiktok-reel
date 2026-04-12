@@ -27,7 +27,8 @@
   <!-- Container della pagina, necessario per via del layout particolare -->
   <div class="reel-page debug">
     <video src="assets/video/coder.mp4" autoplay muted loop></video>
-
+    <h2>boolean.careers</h2> 
+    
     <!-- Header -->
     <header class="reel-header">
       <button type="button" class="play" aria-label="Cerca">
@@ -90,16 +91,27 @@
 
 
     <!-- Footer -->
-    <footer class="icon"> 
-      <span>Home</span>
-      <button><i class="bi bi-house-fill"></i></button>
+    <footer class="tab-bar"> 
+      <div class="home">
+        <button><i class="bi bi-house-fill"></i></button>
+        <span>Home</span>
+      </div>
+      <div class="amici">
+        <button><i class="bi bi-people"></i></button>
       <span>Amici</span>
-      <button><i class="bi bi-people"></i></button>
-      <button><i class="bi bi-plus"></i></button>
-      <span>Posta in arrivo</span>
-      <button><i class="bi bi-chat-square"></i></button>
-      <span>Profilo</span>
-      <button><i class="bi bi-person"></i></button>  
+      </div>
+      <div class="plus">
+        <button><i class="bi bi-plus"></i></button>
+      </div>
+      <div class="messages">
+        <button><i class="bi bi-chat-square"></i></button>
+        <span>Posta in arrivo</span>
+        <span class="notify">19</span>
+      </div>
+      <div class="profile">
+        <button><i class="bi bi-person"></i></button>
+        <span>Profilo</span>
+      </div>
     </footer>
   </div>
 
