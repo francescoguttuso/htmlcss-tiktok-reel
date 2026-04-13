@@ -232,12 +232,17 @@ h3 {
 	right: 0;
 	top: 40%;
 	color: #fff;
-	display: flex;
+	text-align: center;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 	gap: 9px;
+	
 
+}
+
+.sidebar > div + div {
+  margin-top: 25px; 
 }
 
 .debug .sidebar {
