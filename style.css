@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -41,56 +42,57 @@ video {
 	padding: 15px;
 
 }
+
 .menu {
 	display: flex;
-	gap:15px;
+	gap: 15px;
 }
 
 button {
-  border-radius: 0;
-  text-align: inherit;
-  background: none;
-  box-shadow: none;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-  color: inherit;
-  font: inherit;
+	border-radius: 0;
+	text-align: inherit;
+	background: none;
+	box-shadow: none;
+	padding: 0;
+	cursor: pointer;
+	border: none;
+	color: inherit;
+	font: inherit;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 .followed {
-  position: relative;
+	position: relative;
 }
 
 /* puntino rosso */
 .followed::after {
-  content: "";
-  position: absolute;
+	content: "";
+	position: absolute;
 
-  top: 2px;      
-  right: -8px;   
+	top: 2px;
+	right: -8px;
 
-  width: 6px;
-  height: 6px;
+	width: 6px;
+	height: 6px;
 
-  background-color: rgba(255, 0, 0, 0.6); 
-  border-radius: 50%;
+	background-color: rgba(255, 0, 0, 0.6);
+	border-radius: 50%;
 }
 
 .for-you {
 	color: #fff;
 	font-weight: bold;
-	border-bottom: 2px solid #fff;	
-}	
+	border-bottom: 2px solid #fff;
+}
 
 .reel-header button {
-	color: #fff; 
-	font-size: 24px	
+	color: #fff;
+	font-size: 24px
 }
 
 
@@ -106,7 +108,7 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-	
+
 }
 
 .tab-bar {
@@ -115,61 +117,63 @@ footer {
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 11px;
-    margin-left: 10px;
-	
-}	
+	margin-left: 10px;
+
+}
 
 
 h3 {
 	padding-top: 2px;
-    padding-bottom: 7px;
+	padding-bottom: 7px;
 
 }
 
-.amici, .plus, .messages, .profile {
-  	display: flex;
-  	flex-direction: column;
+.amici,
+.plus,
+.messages,
+.profile {
+	display: flex;
+	flex-direction: column;
 	align-items: center;
-  	gap: 5px;
+	gap: 5px;
 	color: #868282
-  	
 }
 
 .text {
 	position: absolute;
-    top: -90px;
-    left: 4px;
+	top: -90px;
+	left: 4px;
 }
 
 .home {
 	display: flex;
-  	flex-direction: column;
+	flex-direction: column;
 	align-items: center;
-  	gap: 5px;
+	gap: 5px;
 	color: #fff;
 }
 
-.plus{
+.plus {
 	position: relative;
-    width: 47px;
-    height: 32px;
-    background: #fff;
-    border-radius: 9px;
+	width: 47px;
+	height: 32px;
+	background: #fff;
+	border-radius: 9px;
 }
 
 .messages {
 	position: relative;
- 
+
 }
 
 .notify {
-  	position: absolute;
+	position: absolute;
 	top: -5px;
- 	right: 17px;
+	right: 17px;
 	width: 20px;
 	height: 16px;
- 	background-color: red;
- 	border-radius: 30%;
+	background-color: red;
+	border-radius: 30%;
 	color: #fff;
 	text-align: center;
 
@@ -186,37 +190,37 @@ h3 {
 }
 
 .profile-info .pic {
-  display: inline-flex;
-  border: 4px solid #fff;
-  border-radius: 50%;
-  overflow: hidden;
+	display: inline-flex;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	overflow: hidden;
 
 }
 
 .debug footer {
 	min-height: 80px;
-	
+
 }
 
 .debug .reel-header {
 	min-height: 50px;
-	
+
 }
 
 .add-btn {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  color: white;
-  transform: translate(13px, -10px);	
-  position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	color: white;
+	transform: translate(13px, -10px);
+	position: absolute;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-  border-radius: 50%; 
-  font-size: 16px;
+	border-radius: 50%;
+	font-size: 16px;
 
 }
 
@@ -228,22 +232,18 @@ h3 {
 	top: 40%;
 	color: #fff;
 	text-align: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-	gap: 9px;
-	
+
 
 }
 
-.sidebar > div + div {
-  margin-top: 25px; 
+.sidebar>div+div {
+	margin-top: 25px;
 }
 
 .debug .sidebar {
 	min-width: 80px;
 	min-height: 427px;
-	
+
 }
 
 .sidebar i {
@@ -255,4 +255,3 @@ h3 {
 
 
 /* --------------------- */
-
